@@ -3,11 +3,21 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  height: 100vh;
+  background-color: lightblue;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.selected-link {
+  color: peru;
+}
+
+.selection__title {
+  text-decoration: underline;
+}
+
+.selection__option-wrap {
+  display: flex;
+  flex-direction: column;
 }
