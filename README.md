@@ -9,7 +9,7 @@ We'll be building a simple App that will have the following features:
 ## Installation
 - Clone down this repo and checkout this `exercise` branch
 - Run npm `install`
-React router is included in the dependencies at version ^5.3.0.
+React router is included in the dependencies at version ^5.3.3.
 
 ## Step 1 - Create some static routes
 - Import a Browser router (remember you can alias its name!) and route from `react-router-dom`
